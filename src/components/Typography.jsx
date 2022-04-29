@@ -16,7 +16,7 @@ export default function Typography({
   };
 
   let customs = color ? { color } : {};
-  customs = size ? { ...customs, size } : customs;
+  customs = size ? { ...customs, fontSize: size } : customs;
 
   return (
     <Text style={[tailwind(componentStyle[variant]), style, customs]}>
