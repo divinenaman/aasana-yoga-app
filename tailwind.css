@@ -1,13 +1,49 @@
+.m-\[40px\] {
+  margin: 40px
+}
+
+.mt-2 {
+  margin-top: 0.5rem
+}
+
+.mt-1 {
+  margin-top: 0.25rem
+}
+
+.mt-3 {
+  margin-top: 0.75rem
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem
+}
+
 .flex {
   display: flex
+}
+
+.hidden {
+  display: none
 }
 
 .h-\[52px\] {
   height: 52px
 }
 
+.h-32 {
+  height: 8rem
+}
+
+.h-10 {
+  height: 2.5rem
+}
+
 .w-full {
   width: 100%
+}
+
+.w-\[50\%\] {
+  width: 50%
 }
 
 .flex-1 {
@@ -42,6 +78,14 @@
   border-width: 4px
 }
 
+.border-l-2 {
+  border-left-width: 2px
+}
+
+.border-b-2 {
+  border-bottom-width: 2px
+}
+
 .border-gray-50 {
   --tw-border-opacity: 1;
   border-color: rgb(249 250 251 / var(--tw-border-opacity))
@@ -50,6 +94,20 @@
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity))
+}
+
+.border-\[\#B58DD4\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(181 141 212 / var(--tw-border-opacity))
+}
+
+.border-transparent {
+  border-color: transparent
+}
+
+.border-\[\#fff\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity))
 }
 
 .bg-\[\#B58DD4\] {
@@ -64,6 +122,10 @@
 
 .p-3 {
   padding: 0.75rem
+}
+
+.p-\[30px\] {
+  padding: 30px
 }
 
 .text-base {

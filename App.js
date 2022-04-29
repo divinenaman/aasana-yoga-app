@@ -7,12 +7,17 @@ import utilities from "./tailwind.json";
 import { Button } from "./src/components";
 import Home from "./src/screens/Home";
 import Login from "./src/screens/Login";
+import { GetName, SelectGender } from "./src/screens/Onboarding";
 
 export default function App() {
   return (
     <TailwindProvider utilities={utilities}>
       <View style={styles.container}>
-        <Login />
+        {/* <Login /> */}
+        {/* <GetName /> */}
+        {/* <SelectGender /> */}
+        <Home />
+        {/* <Catalogue /> */}
       </View>
     </TailwindProvider>
   );
@@ -23,6 +28,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
   },
 });
